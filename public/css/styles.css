@@ -1,0 +1,110 @@
+[class*="caja"] {
+  position: static;
+  right: 0px;
+  width: 97%;
+  height: 300px;
+  padding: 10px;
+  margin: 10px; }
+
+.boton {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 150px;
+  height: 75px;
+  padding: 10px;
+  right: 0px;
+  background-color: black; }
+
+.relative {
+  position: relative;
+  left: 0px; }
+
+.entrada {
+  position: relative;
+  padding-right: 150px;
+  background-color: grey;
+  height: 75px;
+  clear: none; }
+
+.caja.c1 {
+  background-color: red; }
+
+.caja.c2 {
+  background-color: green; }
+
+.caja.c3 {
+  background-color: yellow; }
+
+.caja.c4 {
+  background-color: orange; }
+
+.caja.c5 {
+  background-color: purple; }
+
+.caja.c6 {
+  background-color: blue; }
+
+.caja.c7 {
+  background-color: brown; }
+
+.relative.r2 {
+  width: 100%; }
+
+/* For mobile phones: */
+@media only screen and (max-width: 480px) {
+  .static {
+    position: static; }
+  .static2 {
+    position: static; }
+  .static3 {
+    position: static; } }
+
+/* For iPad: */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .caja.c4 {
+    width: 40%;
+    float: left; }
+  .caja.c5 {
+    width: 40%;
+    float: right; }
+  .static {
+    position: static;
+    right: 0px;
+    height: 330px; }
+  .static2 {
+    position: static; }
+  .static3 {
+    position: static; } }
+
+/* For Desktop: */
+@media only screen and (min-width: 768px) {
+  .static2 {
+    position: static;
+    right: 0px;
+    height: 330px;
+    width: 100%; }
+  .caja.c2 {
+    width: 45%;
+    float: left; }
+  .caja.c3 {
+    width: 45%;
+    float: right; }
+  .static3 {
+    position: static;
+    right: 0px;
+    height: 330px; }
+  .static {
+    position: static;
+    float: left;
+    height: 330px;
+    width: 65%; }
+  .caja.c4 {
+    width: 40%;
+    float: left; }
+  .caja.c5 {
+    width: 40%;
+    float: right; }
+  .caja.c6 {
+    width: 30%;
+    float: right; } }
